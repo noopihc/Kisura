@@ -1,0 +1,7 @@
+// Kisura/config/services.php
+
+services:
+    kernel.listener.check_user_listener:
+        class: Kisura\AppBundle\EventListener\CheckUserListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
