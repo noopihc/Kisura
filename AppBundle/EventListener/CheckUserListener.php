@@ -14,6 +14,8 @@ class CheckUserListener
     }
     else {
       // Redirect user to register page.
+      // todo: add routes
+      return new RedirectResponse($this->generateUrl('Register'));
       
     }
   }

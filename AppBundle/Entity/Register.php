@@ -78,7 +78,7 @@ class Registration
     */
     public function postPersist()
     {
-        // Simple php send using mail(). 
+        // todo: simple php send using mail(). 
     }
 
     // Additional functions ...

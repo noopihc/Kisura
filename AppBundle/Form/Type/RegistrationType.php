@@ -1,4 +1,5 @@
 // Kisura/AppBundle/Form/Type/RegistrationType.php
+// todo: twig templates for html
 
 namespace Kisura\AppBundle\Form\Type;
 
