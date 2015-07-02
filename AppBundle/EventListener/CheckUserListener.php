@@ -3,6 +3,7 @@
 namespace Kisura\AppBundle\EventListener;
 
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 class CheckUserListener
 {  
